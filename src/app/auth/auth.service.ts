@@ -6,7 +6,7 @@ import { Subject } from 'rxjs';
 import { AuthData } from './auth-data.model';
 import { environment } from '../../environments/environment';
 
-const BACKEND_URL = environment.apiUrl + '/user';
+const BACKEND_URL = 'https://meankoftov.herokuapp.com/api/user';
 
 @Injectable({ providedIn: 'root' })
 export class AuthService {
